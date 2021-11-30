@@ -16,4 +16,3 @@ public class Persona {
         return (String.format("{%s}-{%s}-{%d}-{%s}", this.ciudad, this.direccion, this.edad, this.nombreYApellido));
     }
 }
-

@@ -48,4 +48,3 @@ class Ejercicio2 {
         return primerNumero % segundoNumero;
     }
 }
-

@@ -11,8 +11,6 @@ public class Ejercicio2 {
         List<Integer> listaCuadrados = numeros.stream()
             .map(numero -> numero * numero)
             .collect(Collectors.toList());
-
         return listaCuadrados;
     }
-
 }

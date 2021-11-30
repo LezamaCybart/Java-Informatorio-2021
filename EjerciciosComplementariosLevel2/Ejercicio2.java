@@ -15,9 +15,7 @@ class Ejercicio2 {
         ingresarNumeroAlFinal(scanner, numeros);
         imprimirListaNumeros(numeros);
         informarTamañoLista(numeros);
-
         scanner.close();
-
     }
 
     static void inicializarListaNumeros(Scanner scanner, ArrayList<Integer> listaNumeros) { 
@@ -51,4 +49,3 @@ class Ejercicio2 {
         System.out.println(String.format("Tamaño de la lista: %d", lista.size()));
     }
 }
-

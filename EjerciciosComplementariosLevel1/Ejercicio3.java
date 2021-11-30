@@ -3,9 +3,7 @@ import java.util.Scanner;
 class Ejercicio3 { 
     public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Ingrese un numero entero: ");
-
         int numero = Integer.valueOf(scanner.nextLine());
 
         imprimirEscalera(numero);

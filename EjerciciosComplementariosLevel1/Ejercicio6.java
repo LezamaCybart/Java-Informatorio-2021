@@ -23,4 +23,3 @@ class Ejercicio6 {
         return potencia;
     }
 }
-

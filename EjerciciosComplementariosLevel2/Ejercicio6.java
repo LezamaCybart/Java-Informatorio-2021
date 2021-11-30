@@ -8,9 +8,7 @@ class Ejercicio6 {
         Map<Integer, Float>sueldos = new HashMap<Integer, Float>();
 
         ingresarEmpleados(empleados);
-
         poblarDiccionarioSueldos(sueldos, empleados);
-
         imprimirDiccionario(sueldos);
     }
 
@@ -33,4 +31,3 @@ class Ejercicio6 {
         }
     }
 }
-

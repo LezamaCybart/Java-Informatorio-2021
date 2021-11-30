@@ -1,5 +1,4 @@
 class Empleado { 
-
     private String nombreYApellido;
     private Integer dni;
     private Integer horasTrabajadas;
@@ -17,9 +16,7 @@ class Empleado {
     public Integer getDni() {
         return dni;
     }
-
     public Float getSueldo() {
         return sueldo;
     }
 }
-

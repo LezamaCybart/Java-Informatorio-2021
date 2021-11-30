@@ -11,7 +11,6 @@ public class Ejercicio3 {
         List<String> palabrasB = palabras.stream()
             .filter(palabra -> palabra.toUpperCase().startsWith("B"))
             .collect(Collectors.toList());
-
         return palabrasB;
     }
 }

@@ -28,8 +28,6 @@ class Ejercicio7 {
 
             fizzbuzzArray.add(valor);
         }
-
         return fizzbuzzArray;
     }
 }
-

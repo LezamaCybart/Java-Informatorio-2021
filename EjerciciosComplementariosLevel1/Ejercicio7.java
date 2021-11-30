@@ -19,14 +19,11 @@ class Ejercicio7 {
         for(int i = 0; i < string.length(); i++) { 
             cadenaMayuscula += caracterAMayuscula(string.charAt(i));
         }
-
         return cadenaMayuscula;
     }
 
     static char caracterAMayuscula(char caracter) { 
         int asciiMayuscula = ((int) caracter) - 32;
-
         return (char) asciiMayuscula;
     }
 }
-

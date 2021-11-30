@@ -10,7 +10,6 @@ class Ejercicio5 {
         ArrayList<Float> valorPorHora = new ArrayList<Float>();
 
         inicializarArraysSemanales(scanner, horasTrabajadas, valorPorHora);
-
         ArrayList<Float> totales = generarArrayTotales(horasTrabajadas, valorPorHora);
 
         //Imprimir array totales
@@ -18,7 +17,6 @@ class Ejercicio5 {
 
         //Informar total a pagar
         System.out.println(String.format("Total Final: $%.2f", obtenerTotal(totales)));
-
         scanner.close();
     }
 
@@ -28,7 +26,6 @@ class Ejercicio5 {
         for (int i = 0; i < 5; i++) { //5 corresponde a la cantidad de dias laborales Lun-Vie
             System.out.println("Ingrese horas trabajdas en el día " + (i + 1));
             horasTrabajadas.add(Integer.valueOf(scanner.nextLine()));
-
             System.out.println("Ingrese el valor por hora del dia" + (i + 1));
             valorPorHora.add(Float.valueOf(scanner.nextLine()));
         }
@@ -40,7 +37,6 @@ class Ejercicio5 {
         for (int i = 0; i < 5; i++) { 
             arrayTotales.add(horasTrabajadas.get(i) * valorPorHora.get(i));
         }
-
         return arrayTotales;
     }
 
@@ -50,9 +46,6 @@ class Ejercicio5 {
         for (Float valor: arrayTotales) { 
             total += valor;
         }
-
         return total;
     }
-
 }
-

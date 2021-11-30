@@ -16,7 +16,6 @@ public class Ejercicio4 {
             .distinct()
             .map(numero -> factorial(numero))
             .collect(Collectors.toList());
-        
         return factoriales;
     }
 }

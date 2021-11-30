@@ -19,7 +19,6 @@ class Ejercicio8 {
         Persona persona = new Persona(nombreYApellido, edad, direccion, ciudad);
 
         System.out.println(persona);
-
         scanner.close();
     }
 }

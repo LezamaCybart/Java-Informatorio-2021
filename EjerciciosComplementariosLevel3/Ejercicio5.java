@@ -16,7 +16,6 @@ public class Ejercicio5 {
     public static Map<String, Integer> alumnosYEdades(List<Alumno> alumnos) {
         Map<String, Integer> alumnosYEdades = alumnos.stream()
             .collect(Collectors.toMap(Alumno::toString, Alumno::getAge));
-
         return alumnosYEdades;
     }
 }

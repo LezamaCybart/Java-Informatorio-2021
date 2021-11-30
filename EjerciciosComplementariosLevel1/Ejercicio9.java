@@ -22,8 +22,6 @@ class Ejercicio9 {
                 cantidadDeOcurrencias++;
             }
         }
-
         return cantidadDeOcurrencias;
     }
 }
-
