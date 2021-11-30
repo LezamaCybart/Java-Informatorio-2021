@@ -12,7 +12,7 @@ class Ejercicio4 {
         System.out.println(String.format("El factorial de %d es: %d", numero, factorial(numero)));
     }
 
-    static int factorial(int numero) { 
+    public static int factorial(int numero) { 
         if(numero <= 1) { 
             return 1;
         } else { 
